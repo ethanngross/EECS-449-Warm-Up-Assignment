@@ -1,0 +1,9 @@
+# Ignore generated directories
+__jac_gen__/
+chroma/
+
+# Ignore virtual environment
+myenv/
+
+# Optionally ignore auto-generated docs if applicable
+docs/
