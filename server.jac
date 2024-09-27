@@ -2,6 +2,7 @@ import:py from mtllm.llms {Ollama}
 import:jac from rag {RagEngine}
 glob rag_engine:RagEngine = RagEngine();
 glob llm = Ollama(model_name='llama3.1');
+# glob llm = Ollama(model_name='llama2');
 
 node Session {
     has id: str;
